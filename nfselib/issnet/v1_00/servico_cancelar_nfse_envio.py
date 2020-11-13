@@ -3905,16 +3905,16 @@ class tcIdentificacaoNfse(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Numero = Numero
         self.validate_tsNumeroNfse(self.Numero)
-        self.Numero_nsprefix_ = None
+        self.Numero_nsprefix_ = 'tc'
         self.Cnpj = Cnpj
         self.validate_tsCnpj(self.Cnpj)
-        self.Cnpj_nsprefix_ = None
+        self.Cnpj_nsprefix_ = 'tc'
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = None
+        self.InscricaoMunicipal_nsprefix_ = 'tc'
         self.CodigoMunicipio = CodigoMunicipio
         self.validate_tsCodigoMunicipioIbge(self.CodigoMunicipio)
-        self.CodigoMunicipio_nsprefix_ = None
+        self.CodigoMunicipio_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -4716,14 +4716,14 @@ class tcInfPedidoCancelamento(GeneratedsSuper):
         self.gds_elementtree_node_ = None
         self.original_tagname_ = None
         self.parent_object_ = kwargs_.get('parent_object_')
-        self.ns_prefix_ = None
+        self.ns_prefix_ = 'tc'
         self.id = _cast(None, id)
         self.id_nsprefix_ = None
         self.IdentificacaoNfse = IdentificacaoNfse
-        self.IdentificacaoNfse_nsprefix_ = None
+        self.IdentificacaoNfse_nsprefix_ = 'tc'
         self.CodigoCancelamento = CodigoCancelamento
         self.validate_tsCodigoCancelamentoNfse(self.CodigoCancelamento)
-        self.CodigoCancelamento_nsprefix_ = None
+        self.CodigoCancelamento_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
