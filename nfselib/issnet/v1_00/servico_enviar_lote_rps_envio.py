@@ -1070,10 +1070,10 @@ class tcCpfCnpj(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Cpf = Cpf
         self.validate_tsCpf(self.Cpf)
-        self.Cpf_nsprefix_ = None
+        self.Cpf_nsprefix_ = 'tc'
         self.Cnpj = Cnpj
         self.validate_tsCnpj(self.Cnpj)
-        self.Cnpj_nsprefix_ = None
+        self.Cnpj_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -1211,25 +1211,25 @@ class tcEndereco(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Endereco = Endereco
         self.validate_tsEndereco(self.Endereco)
-        self.Endereco_nsprefix_ = None
+        self.Endereco_nsprefix_ = 'tc'
         self.Numero = Numero
         self.validate_tsNumeroEndereco(self.Numero)
-        self.Numero_nsprefix_ = None
+        self.Numero_nsprefix_ = 'tc'
         self.Complemento = Complemento
         self.validate_tsComplementoEndereco(self.Complemento)
-        self.Complemento_nsprefix_ = None
+        self.Complemento_nsprefix_ = 'tc'
         self.Bairro = Bairro
         self.validate_tsBairro(self.Bairro)
-        self.Bairro_nsprefix_ = None
+        self.Bairro_nsprefix_ = 'tc'
         self.Cidade = Cidade
         self.validate_tsCodigoMunicipioIbge(self.Cidade)
-        self.Cidade_nsprefix_ = None
+        self.Cidade_nsprefix_ = 'tc'
         self.Estado = Estado
         self.validate_tsUf(self.Estado)
-        self.Estado_nsprefix_ = None
+        self.Estado_nsprefix_ = 'tc'
         self.Cep = Cep
         self.validate_tsCep(self.Cep)
-        self.Cep_nsprefix_ = None
+        self.Cep_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -1508,10 +1508,10 @@ class tcContato(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Telefone = Telefone
         self.validate_tsTelefone(self.Telefone)
-        self.Telefone_nsprefix_ = None
+        self.Telefone_nsprefix_ = 'tc'
         self.Email = Email
         self.validate_tsEmail(self.Email)
-        self.Email_nsprefix_ = None
+        self.Email_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -1652,10 +1652,10 @@ class tcIdentificacaoOrgaoGerador(GeneratedsSuper):
         self.ns_prefix_ = None
         self.CodigoMunicipio = CodigoMunicipio
         self.validate_tsCodigoMunicipioIbge(self.CodigoMunicipio)
-        self.CodigoMunicipio_nsprefix_ = None
+        self.CodigoMunicipio_nsprefix_ = 'tc'
         self.Uf = Uf
         self.validate_tsUf(self.Uf)
-        self.Uf_nsprefix_ = None
+        self.Uf_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -1789,13 +1789,13 @@ class tcIdentificacaoRps(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Numero = Numero
         self.validate_tsNumeroRps(self.Numero)
-        self.Numero_nsprefix_ = None
+        self.Numero_nsprefix_ = 'tc'
         self.Serie = Serie
         self.validate_tsSerieRps(self.Serie)
-        self.Serie_nsprefix_ = None
+        self.Serie_nsprefix_ = 'tc'
         self.Tipo = Tipo
         self.validate_tsTipoRps(self.Tipo)
-        self.Tipo_nsprefix_ = None
+        self.Tipo_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -1960,10 +1960,10 @@ class tcIdentificacaoPrestador(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.CpfCnpj = CpfCnpj
-        self.CpfCnpj_nsprefix_ = None
+        self.CpfCnpj_nsprefix_ = 'tc'
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = None
+        self.InscricaoMunicipal_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -2082,10 +2082,10 @@ class tcIdentificacaoTomador(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.CpfCnpj = CpfCnpj
-        self.CpfCnpj_nsprefix_ = None
+        self.CpfCnpj_nsprefix_ = 'tc'
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = None
+        self.InscricaoMunicipal_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -2206,14 +2206,14 @@ class tcDadosTomador(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.IdentificacaoTomador = IdentificacaoTomador
-        self.IdentificacaoTomador_nsprefix_ = None
+        self.IdentificacaoTomador_nsprefix_ = 'tc'
         self.RazaoSocial = RazaoSocial
         self.validate_tsRazaoSocial(self.RazaoSocial)
-        self.RazaoSocial_nsprefix_ = None
+        self.RazaoSocial_nsprefix_ = 'tc'
         self.Endereco = Endereco
-        self.Endereco_nsprefix_ = None
+        self.Endereco_nsprefix_ = 'tc'
         self.Contato = Contato
-        self.Contato_nsprefix_ = None
+        self.Contato_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -2352,12 +2352,12 @@ class tcIdentificacaoIntermediarioServico(GeneratedsSuper):
         self.ns_prefix_ = None
         self.RazaoSocial = RazaoSocial
         self.validate_tsRazaoSocial(self.RazaoSocial)
-        self.RazaoSocial_nsprefix_ = None
+        self.RazaoSocial_nsprefix_ = 'tc'
         self.CpfCnpj = CpfCnpj
-        self.CpfCnpj_nsprefix_ = None
+        self.CpfCnpj_nsprefix_ = 'tc'
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = None
+        self.InscricaoMunicipal_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -2521,52 +2521,52 @@ class tcValores(GeneratedsSuper):
         self.ns_prefix_ = None
         self.ValorServicos = ValorServicos
         self.validate_tsValor(self.ValorServicos)
-        self.ValorServicos_nsprefix_ = None
+        self.ValorServicos_nsprefix_ = 'tc'
         self.ValorDeducoes = ValorDeducoes
         self.validate_tsValor(self.ValorDeducoes)
-        self.ValorDeducoes_nsprefix_ = None
+        self.ValorDeducoes_nsprefix_ = 'tc'
         self.ValorPis = ValorPis
         self.validate_tsValor(self.ValorPis)
-        self.ValorPis_nsprefix_ = None
+        self.ValorPis_nsprefix_ = 'tc'
         self.ValorCofins = ValorCofins
         self.validate_tsValor(self.ValorCofins)
-        self.ValorCofins_nsprefix_ = None
+        self.ValorCofins_nsprefix_ = 'tc'
         self.ValorInss = ValorInss
         self.validate_tsValor(self.ValorInss)
-        self.ValorInss_nsprefix_ = None
+        self.ValorInss_nsprefix_ = 'tc'
         self.ValorIr = ValorIr
         self.validate_tsValor(self.ValorIr)
-        self.ValorIr_nsprefix_ = None
+        self.ValorIr_nsprefix_ = 'tc'
         self.ValorCsll = ValorCsll
         self.validate_tsValor(self.ValorCsll)
-        self.ValorCsll_nsprefix_ = None
+        self.ValorCsll_nsprefix_ = 'tc'
         self.IssRetido = IssRetido
         self.validate_tsSimNao(self.IssRetido)
-        self.IssRetido_nsprefix_ = None
+        self.IssRetido_nsprefix_ = 'tc'
         self.ValorIss = ValorIss
         self.validate_tsValor(self.ValorIss)
-        self.ValorIss_nsprefix_ = None
+        self.ValorIss_nsprefix_ = 'tc'
         self.ValorIssRetido = ValorIssRetido
         self.validate_tsValor(self.ValorIssRetido)
-        self.ValorIssRetido_nsprefix_ = None
+        self.ValorIssRetido_nsprefix_ = 'tc'
         self.OutrasRetencoes = OutrasRetencoes
         self.validate_tsValor(self.OutrasRetencoes)
-        self.OutrasRetencoes_nsprefix_ = None
+        self.OutrasRetencoes_nsprefix_ = 'tc'
         self.BaseCalculo = BaseCalculo
         self.validate_tsValor(self.BaseCalculo)
-        self.BaseCalculo_nsprefix_ = None
+        self.BaseCalculo_nsprefix_ = 'tc'
         self.Aliquota = Aliquota
         self.validate_tsAliquota(self.Aliquota)
-        self.Aliquota_nsprefix_ = None
+        self.Aliquota_nsprefix_ = 'tc'
         self.ValorLiquidoNfse = ValorLiquidoNfse
         self.validate_tsValor(self.ValorLiquidoNfse)
-        self.ValorLiquidoNfse_nsprefix_ = None
+        self.ValorLiquidoNfse_nsprefix_ = 'tc'
         self.DescontoIncondicionado = DescontoIncondicionado
         self.validate_tsValor(self.DescontoIncondicionado)
-        self.DescontoIncondicionado_nsprefix_ = None
+        self.DescontoIncondicionado_nsprefix_ = 'tc'
         self.DescontoCondicionado = DescontoCondicionado
         self.validate_tsValor(self.DescontoCondicionado)
-        self.DescontoCondicionado_nsprefix_ = None
+        self.DescontoCondicionado_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -2906,22 +2906,22 @@ class tcDadosServico(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.Valores = Valores
-        self.Valores_nsprefix_ = None
+        self.Valores_nsprefix_ = 'tc'
         self.ItemListaServico = ItemListaServico
         self.validate_tsItemListaServico(self.ItemListaServico)
-        self.ItemListaServico_nsprefix_ = None
+        self.ItemListaServico_nsprefix_ = 'tc'
         self.CodigoCnae = CodigoCnae
         self.validate_tsCodigoCnae(self.CodigoCnae)
-        self.CodigoCnae_nsprefix_ = None
+        self.CodigoCnae_nsprefix_ = 'tc'
         self.CodigoTributacaoMunicipio = CodigoTributacaoMunicipio
         self.validate_tsCodigoTributacao(self.CodigoTributacaoMunicipio)
-        self.CodigoTributacaoMunicipio_nsprefix_ = None
+        self.CodigoTributacaoMunicipio_nsprefix_ = 'tc'
         self.Discriminacao = Discriminacao
         self.validate_tsDiscriminacao(self.Discriminacao)
-        self.Discriminacao_nsprefix_ = None
+        self.Discriminacao_nsprefix_ = 'tc'
         self.MunicipioPrestacaoServico = MunicipioPrestacaoServico
         self.validate_tsCodigoMunicipioIbge(self.MunicipioPrestacaoServico)
-        self.MunicipioPrestacaoServico_nsprefix_ = None
+        self.MunicipioPrestacaoServico_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -3153,10 +3153,10 @@ class tcDadosConstrucaoCivil(GeneratedsSuper):
         self.ns_prefix_ = None
         self.CodigoObra = CodigoObra
         self.validate_tsCodigoObra(self.CodigoObra)
-        self.CodigoObra_nsprefix_ = None
+        self.CodigoObra_nsprefix_ = 'tc'
         self.Art = Art
         self.validate_tsArt(self.Art)
-        self.Art_nsprefix_ = None
+        self.Art_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -3299,17 +3299,17 @@ class tcDadosPrestador(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.IdentificacaoPrestador = IdentificacaoPrestador
-        self.IdentificacaoPrestador_nsprefix_ = None
+        self.IdentificacaoPrestador_nsprefix_ = 'tc'
         self.RazaoSocial = RazaoSocial
         self.validate_tsRazaoSocial(self.RazaoSocial)
-        self.RazaoSocial_nsprefix_ = None
+        self.RazaoSocial_nsprefix_ = 'tc'
         self.NomeFantasia = NomeFantasia
         self.validate_tsNomeFantasia(self.NomeFantasia)
-        self.NomeFantasia_nsprefix_ = None
+        self.NomeFantasia_nsprefix_ = 'tc'
         self.Endereco = Endereco
-        self.Endereco_nsprefix_ = None
+        self.Endereco_nsprefix_ = 'tc'
         self.Contato = Contato
-        self.Contato_nsprefix_ = None
+        self.Contato_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -3488,42 +3488,42 @@ class tcInfRps(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.id = _cast(None, id)
-        self.id_nsprefix_ = None
+        self.id_nsprefix_ = 'tc'
         self.IdentificacaoRps = IdentificacaoRps
-        self.IdentificacaoRps_nsprefix_ = None
+        self.IdentificacaoRps_nsprefix_ = 'tc'
         if isinstance(DataEmissao, BaseStrType_):
             initvalue_ = datetime_.datetime.strptime(DataEmissao, '%Y-%m-%dT%H:%M:%S')
         else:
             initvalue_ = DataEmissao
         self.DataEmissao = initvalue_
-        self.DataEmissao_nsprefix_ = None
+        self.DataEmissao_nsprefix_ = 'tc'
         self.NaturezaOperacao = NaturezaOperacao
         self.validate_tsNaturezaOperacao(self.NaturezaOperacao)
-        self.NaturezaOperacao_nsprefix_ = None
+        self.NaturezaOperacao_nsprefix_ = 'tc'
         self.RegimeEspecialTributacao = RegimeEspecialTributacao
         self.validate_tsRegimeEspecialTributacao(self.RegimeEspecialTributacao)
-        self.RegimeEspecialTributacao_nsprefix_ = None
+        self.RegimeEspecialTributacao_nsprefix_ = 'tc'
         self.OptanteSimplesNacional = OptanteSimplesNacional
         self.validate_tsSimNao(self.OptanteSimplesNacional)
-        self.OptanteSimplesNacional_nsprefix_ = None
+        self.OptanteSimplesNacional_nsprefix_ = 'tc'
         self.IncentivadorCultural = IncentivadorCultural
         self.validate_tsSimNao(self.IncentivadorCultural)
-        self.IncentivadorCultural_nsprefix_ = None
+        self.IncentivadorCultural_nsprefix_ = 'tc'
         self.Status = Status
         self.validate_tsStatusRps(self.Status)
-        self.Status_nsprefix_ = None
+        self.Status_nsprefix_ = 'tc'
         self.RpsSubstituido = RpsSubstituido
-        self.RpsSubstituido_nsprefix_ = None
+        self.RpsSubstituido_nsprefix_ = 'tc'
         self.Servico = Servico
-        self.Servico_nsprefix_ = None
+        self.Servico_nsprefix_ = 'tc'
         self.Prestador = Prestador
-        self.Prestador_nsprefix_ = None
+        self.Prestador_nsprefix_ = 'tc'
         self.Tomador = Tomador
-        self.Tomador_nsprefix_ = None
+        self.Tomador_nsprefix_ = 'tc'
         self.IntermediarioServico = IntermediarioServico
-        self.IntermediarioServico_nsprefix_ = None
+        self.IntermediarioServico_nsprefix_ = 'tc'
         self.ContrucaoCivil = ContrucaoCivil
-        self.ContrucaoCivil_nsprefix_ = None
+        self.ContrucaoCivil_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -3814,9 +3814,9 @@ class tcRps(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.InfRps = InfRps
-        self.InfRps_nsprefix_ = None
+        self.InfRps_nsprefix_ = 'tc'
         self.Signature = Signature
-        self.Signature_nsprefix_ = None
+        self.Signature_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -3917,16 +3917,16 @@ class tcIdentificacaoNfse(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Numero = Numero
         self.validate_tsNumeroNfse(self.Numero)
-        self.Numero_nsprefix_ = None
+        self.Numero_nsprefix_ = 'tc'
         self.Cnpj = Cnpj
         self.validate_tsCnpj(self.Cnpj)
-        self.Cnpj_nsprefix_ = None
+        self.Cnpj_nsprefix_ = 'tc'
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = None
+        self.InscricaoMunicipal_nsprefix_ = 'tc'
         self.CodigoMunicipio = CodigoMunicipio
         self.validate_tsCodigoMunicipioIbge(self.CodigoMunicipio)
-        self.CodigoMunicipio_nsprefix_ = None
+        self.CodigoMunicipio_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -4134,63 +4134,63 @@ class tcInfNfse(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.id = _cast(None, id)
-        self.id_nsprefix_ = None
+        self.id_nsprefix_ = 'tc'
         self.Numero = Numero
         self.validate_tsNumeroNfse(self.Numero)
-        self.Numero_nsprefix_ = None
+        self.Numero_nsprefix_ = 'tc'
         self.CodigoVerificacao = CodigoVerificacao
         self.validate_tsCodigoVerificacao(self.CodigoVerificacao)
-        self.CodigoVerificacao_nsprefix_ = None
+        self.CodigoVerificacao_nsprefix_ = 'tc'
         if isinstance(DataEmissao, BaseStrType_):
             initvalue_ = datetime_.datetime.strptime(DataEmissao, '%Y-%m-%dT%H:%M:%S')
         else:
             initvalue_ = DataEmissao
         self.DataEmissao = initvalue_
-        self.DataEmissao_nsprefix_ = None
+        self.DataEmissao_nsprefix_ = 'tc'
         self.IdentificacaoRps = IdentificacaoRps
-        self.IdentificacaoRps_nsprefix_ = None
+        self.IdentificacaoRps_nsprefix_ = 'tc'
         if isinstance(DataEmissaoRps, BaseStrType_):
             initvalue_ = datetime_.datetime.strptime(DataEmissaoRps, '%Y-%m-%dT%H:%M:%S')
         else:
             initvalue_ = DataEmissaoRps
         self.DataEmissaoRps = initvalue_
-        self.DataEmissaoRps_nsprefix_ = None
+        self.DataEmissaoRps_nsprefix_ = 'tc'
         self.NaturezaOperacao = NaturezaOperacao
         self.validate_tsNaturezaOperacao(self.NaturezaOperacao)
-        self.NaturezaOperacao_nsprefix_ = None
+        self.NaturezaOperacao_nsprefix_ = 'tc'
         self.RegimeEspecialTributacao = RegimeEspecialTributacao
         self.validate_tsRegimeEspecialTributacao(self.RegimeEspecialTributacao)
-        self.RegimeEspecialTributacao_nsprefix_ = None
+        self.RegimeEspecialTributacao_nsprefix_ = 'tc'
         self.OptanteSimplesNacional = OptanteSimplesNacional
         self.validate_tsSimNao(self.OptanteSimplesNacional)
-        self.OptanteSimplesNacional_nsprefix_ = None
+        self.OptanteSimplesNacional_nsprefix_ = 'tc'
         self.IncentivadorCultural = IncentivadorCultural
         self.validate_tsSimNao(self.IncentivadorCultural)
-        self.IncentivadorCultural_nsprefix_ = None
+        self.IncentivadorCultural_nsprefix_ = 'tc'
         self.Competencia = Competencia
         self.validate_tsCompetencia(self.Competencia)
-        self.Competencia_nsprefix_ = None
+        self.Competencia_nsprefix_ = 'tc'
         self.NfseSubstituida = NfseSubstituida
         self.validate_tsNumeroNfse(self.NfseSubstituida)
-        self.NfseSubstituida_nsprefix_ = None
+        self.NfseSubstituida_nsprefix_ = 'tc'
         self.OutrasInformacoes = OutrasInformacoes
         self.validate_tsOutrasInformacoes(self.OutrasInformacoes)
-        self.OutrasInformacoes_nsprefix_ = None
+        self.OutrasInformacoes_nsprefix_ = 'tc'
         self.Servico = Servico
-        self.Servico_nsprefix_ = None
+        self.Servico_nsprefix_ = 'tc'
         self.ValorCredito = ValorCredito
         self.validate_tsValor(self.ValorCredito)
-        self.ValorCredito_nsprefix_ = None
+        self.ValorCredito_nsprefix_ = 'tc'
         self.PrestadorServico = PrestadorServico
-        self.PrestadorServico_nsprefix_ = None
+        self.PrestadorServico_nsprefix_ = 'tc'
         self.TomadorServico = TomadorServico
-        self.TomadorServico_nsprefix_ = None
+        self.TomadorServico_nsprefix_ = 'tc'
         self.IntermediarioServico = IntermediarioServico
-        self.IntermediarioServico_nsprefix_ = None
+        self.IntermediarioServico_nsprefix_ = 'tc'
         self.OrgaoGerador = OrgaoGerador
-        self.OrgaoGerador_nsprefix_ = None
+        self.OrgaoGerador_nsprefix_ = 'tc'
         self.ContrucaoCivil = ContrucaoCivil
-        self.ContrucaoCivil_nsprefix_ = None
+        self.ContrucaoCivil_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -4626,7 +4626,7 @@ class tcNfse(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.InfNfse = InfNfse
-        self.InfNfse_nsprefix_ = None
+        self.InfNfse_nsprefix_ = 'tc'
         if Signature is None:
             self.Signature = []
         else:
@@ -4730,12 +4730,12 @@ class tcInfPedidoCancelamento(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.id = _cast(None, id)
-        self.id_nsprefix_ = None
+        self.id_nsprefix_ = 'tc'
         self.IdentificacaoNfse = IdentificacaoNfse
-        self.IdentificacaoNfse_nsprefix_ = None
+        self.IdentificacaoNfse_nsprefix_ = 'tc'
         self.CodigoCancelamento = CodigoCancelamento
         self.validate_tsCodigoCancelamentoNfse(self.CodigoCancelamento)
-        self.CodigoCancelamento_nsprefix_ = None
+        self.CodigoCancelamento_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -4871,7 +4871,7 @@ class tcPedidoCancelamento(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.InfPedidoCancelamento = InfPedidoCancelamento
-        self.InfPedidoCancelamento_nsprefix_ = None
+        self.InfPedidoCancelamento_nsprefix_ = 'tc'
         self.Signature = Signature
         self.Signature_nsprefix_ = None
     def factory(*args_, **kwargs_):
@@ -4972,15 +4972,15 @@ class tcInfConfirmacaoCancelamento(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.Sucesso = Sucesso
-        self.Sucesso_nsprefix_ = None
+        self.Sucesso_nsprefix_ = 'tc'
         if isinstance(DataHora, BaseStrType_):
             initvalue_ = datetime_.datetime.strptime(DataHora, '%Y-%m-%dT%H:%M:%S')
         else:
             initvalue_ = DataHora
         self.DataHora = initvalue_
-        self.DataHora_nsprefix_ = None
+        self.DataHora_nsprefix_ = 'tc'
         self.ListaMensagemRetorno = ListaMensagemRetorno
-        self.ListaMensagemRetorno_nsprefix_ = None
+        self.ListaMensagemRetorno_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -5091,11 +5091,11 @@ class tcConfirmacaoCancelamento(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.id = _cast(None, id)
-        self.id_nsprefix_ = None
+        self.id_nsprefix_ = 'tc'
         self.Pedido = Pedido
-        self.Pedido_nsprefix_ = None
+        self.Pedido_nsprefix_ = 'tc'
         self.InfConfirmacaoCancelamento = InfConfirmacaoCancelamento
-        self.InfConfirmacaoCancelamento_nsprefix_ = None
+        self.InfConfirmacaoCancelamento_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -5210,7 +5210,7 @@ class tcCancelamentoNfse(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.Confirmacao = Confirmacao
-        self.Confirmacao_nsprefix_ = None
+        self.Confirmacao_nsprefix_ = 'tc'
         self.Signature = Signature
         self.Signature_nsprefix_ = None
     def factory(*args_, **kwargs_):
@@ -5310,10 +5310,10 @@ class tcInfSubstituicaoNfse(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.id = _cast(None, id)
-        self.id_nsprefix_ = None
+        self.id_nsprefix_ = 'tc'
         self.NfseSubstituidora = NfseSubstituidora
         self.validate_tsNumeroNfse(self.NfseSubstituidora)
-        self.NfseSubstituidora_nsprefix_ = None
+        self.NfseSubstituidora_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -5438,7 +5438,7 @@ class tcSubstituicaoNfse(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.SubstituicaoNfse = SubstituicaoNfse
-        self.SubstituicaoNfse_nsprefix_ = None
+        self.SubstituicaoNfse_nsprefix_ = 'tc'
         if Signature is None:
             self.Signature = []
         else:
@@ -5542,11 +5542,11 @@ class tcCompNfse(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.Nfse = Nfse
-        self.Nfse_nsprefix_ = None
+        self.Nfse_nsprefix_ = 'tc'
         self.NfseCancelamento = NfseCancelamento
-        self.NfseCancelamento_nsprefix_ = None
+        self.NfseCancelamento_nsprefix_ = 'tc'
         self.NfseSubstituicao = NfseSubstituicao
-        self.NfseSubstituicao_nsprefix_ = None
+        self.NfseSubstituicao_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -5655,13 +5655,13 @@ class tcMensagemRetorno(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Codigo = Codigo
         self.validate_tsCodigoMensagemAlerta(self.Codigo)
-        self.Codigo_nsprefix_ = None
+        self.Codigo_nsprefix_ = 'tc'
         self.Mensagem = Mensagem
         self.validate_tsDescricaoMensagemAlerta(self.Mensagem)
-        self.Mensagem_nsprefix_ = None
+        self.Mensagem_nsprefix_ = 'tc'
         self.Correcao = Correcao
         self.validate_tsDescricaoMensagemAlerta(self.Correcao)
-        self.Correcao_nsprefix_ = None
+        self.Correcao_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -5815,13 +5815,13 @@ class tcMensagemRetornoLote(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.IdentificacaoRps = IdentificacaoRps
-        self.IdentificacaoRps_nsprefix_ = None
+        self.IdentificacaoRps_nsprefix_ = 'tc'
         self.Codigo = Codigo
         self.validate_tsCodigoMensagemAlerta(self.Codigo)
-        self.Codigo_nsprefix_ = None
+        self.Codigo_nsprefix_ = 'tc'
         self.Mensagem = Mensagem
         self.validate_tsDescricaoMensagemAlerta(self.Mensagem)
-        self.Mensagem_nsprefix_ = None
+        self.Mensagem_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -5974,20 +5974,20 @@ class tcLoteRps(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.id = _cast(None, id)
-        self.id_nsprefix_ = None
+        self.id_nsprefix_ = 'tc'
         self.NumeroLote = NumeroLote
         self.validate_tsNumeroLote(self.NumeroLote)
-        self.NumeroLote_nsprefix_ = None
+        self.NumeroLote_nsprefix_ = 'tc'
         self.CpfCnpj = CpfCnpj
-        self.CpfCnpj_nsprefix_ = None
+        self.CpfCnpj_nsprefix_ = 'tc'
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = None
+        self.InscricaoMunicipal_nsprefix_ = 'tc'
         self.QuantidadeRps = QuantidadeRps
         self.validate_tsQuantidadeRps(self.QuantidadeRps)
-        self.QuantidadeRps_nsprefix_ = None
+        self.QuantidadeRps_nsprefix_ = 'tc'
         self.ListaRps = ListaRps
-        self.ListaRps_nsprefix_ = None
+        self.ListaRps_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -9280,7 +9280,7 @@ class ListaRpsType(GeneratedsSuper):
             self.Rps = []
         else:
             self.Rps = Rps
-        self.Rps_nsprefix_ = None
+        self.Rps_nsprefix_ = 'tc'
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
