@@ -1092,10 +1092,10 @@ class tcCpfCnpj(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Cpf = Cpf
         self.validate_tsCpf(self.Cpf)
-        self.Cpf_nsprefix_ = 'tc'
+        self.Cpf_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Cnpj = Cnpj
         self.validate_tsCnpj(self.Cnpj)
-        self.Cnpj_nsprefix_ = 'tc'
+        self.Cnpj_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -1982,10 +1982,10 @@ class tcIdentificacaoPrestador(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.CpfCnpj = CpfCnpj
-        self.CpfCnpj_nsprefix_ = 'tc'
+        self.CpfCnpj_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = 'tc'
+        self.InscricaoMunicipal_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(

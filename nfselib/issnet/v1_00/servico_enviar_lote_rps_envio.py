@@ -1070,10 +1070,10 @@ class tcCpfCnpj(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Cpf = Cpf
         self.validate_tsCpf(self.Cpf)
-        self.Cpf_nsprefix_ = 'tc'
+        self.Cpf_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Cnpj = Cnpj
         self.validate_tsCnpj(self.Cnpj)
-        self.Cnpj_nsprefix_ = 'tc'
+        self.Cnpj_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -1211,25 +1211,25 @@ class tcEndereco(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Endereco = Endereco
         self.validate_tsEndereco(self.Endereco)
-        self.Endereco_nsprefix_ = 'tc'
+        self.Endereco_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Numero = Numero
         self.validate_tsNumeroEndereco(self.Numero)
-        self.Numero_nsprefix_ = 'tc'
+        self.Numero_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Complemento = Complemento
         self.validate_tsComplementoEndereco(self.Complemento)
-        self.Complemento_nsprefix_ = 'tc'
+        self.Complemento_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Bairro = Bairro
         self.validate_tsBairro(self.Bairro)
-        self.Bairro_nsprefix_ = 'tc'
+        self.Bairro_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Cidade = Cidade
         self.validate_tsCodigoMunicipioIbge(self.Cidade)
-        self.Cidade_nsprefix_ = 'tc'
+        self.Cidade_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Estado = Estado
         self.validate_tsUf(self.Estado)
-        self.Estado_nsprefix_ = 'tc'
+        self.Estado_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Cep = Cep
         self.validate_tsCep(self.Cep)
-        self.Cep_nsprefix_ = 'tc'
+        self.Cep_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -1508,10 +1508,10 @@ class tcContato(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Telefone = Telefone
         self.validate_tsTelefone(self.Telefone)
-        self.Telefone_nsprefix_ = 'tc'
+        self.Telefone_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Email = Email
         self.validate_tsEmail(self.Email)
-        self.Email_nsprefix_ = 'tc'
+        self.Email_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -1652,10 +1652,10 @@ class tcIdentificacaoOrgaoGerador(GeneratedsSuper):
         self.ns_prefix_ = None
         self.CodigoMunicipio = CodigoMunicipio
         self.validate_tsCodigoMunicipioIbge(self.CodigoMunicipio)
-        self.CodigoMunicipio_nsprefix_ = 'tc'
+        self.CodigoMunicipio_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Uf = Uf
         self.validate_tsUf(self.Uf)
-        self.Uf_nsprefix_ = 'tc'
+        self.Uf_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -1789,13 +1789,13 @@ class tcIdentificacaoRps(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Numero = Numero
         self.validate_tsNumeroRps(self.Numero)
-        self.Numero_nsprefix_ = 'tc'
+        self.Numero_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Serie = Serie
         self.validate_tsSerieRps(self.Serie)
-        self.Serie_nsprefix_ = 'tc'
+        self.Serie_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Tipo = Tipo
         self.validate_tsTipoRps(self.Tipo)
-        self.Tipo_nsprefix_ = 'tc'
+        self.Tipo_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -1960,10 +1960,10 @@ class tcIdentificacaoPrestador(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.CpfCnpj = CpfCnpj
-        self.CpfCnpj_nsprefix_ = 'tc'
+        self.CpfCnpj_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = 'tc'
+        self.InscricaoMunicipal_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -2082,10 +2082,10 @@ class tcIdentificacaoTomador(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.CpfCnpj = CpfCnpj
-        self.CpfCnpj_nsprefix_ = 'tc'
+        self.CpfCnpj_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = 'tc'
+        self.InscricaoMunicipal_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -2206,14 +2206,14 @@ class tcDadosTomador(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.IdentificacaoTomador = IdentificacaoTomador
-        self.IdentificacaoTomador_nsprefix_ = 'tc'
+        self.IdentificacaoTomador_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.RazaoSocial = RazaoSocial
         self.validate_tsRazaoSocial(self.RazaoSocial)
-        self.RazaoSocial_nsprefix_ = 'tc'
+        self.RazaoSocial_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Endereco = Endereco
-        self.Endereco_nsprefix_ = 'tc'
+        self.Endereco_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Contato = Contato
-        self.Contato_nsprefix_ = 'tc'
+        self.Contato_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -2352,12 +2352,12 @@ class tcIdentificacaoIntermediarioServico(GeneratedsSuper):
         self.ns_prefix_ = None
         self.RazaoSocial = RazaoSocial
         self.validate_tsRazaoSocial(self.RazaoSocial)
-        self.RazaoSocial_nsprefix_ = 'tc'
+        self.RazaoSocial_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.CpfCnpj = CpfCnpj
-        self.CpfCnpj_nsprefix_ = 'tc'
+        self.CpfCnpj_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = 'tc'
+        self.InscricaoMunicipal_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -2521,52 +2521,52 @@ class tcValores(GeneratedsSuper):
         self.ns_prefix_ = None
         self.ValorServicos = ValorServicos
         self.validate_tsValor(self.ValorServicos)
-        self.ValorServicos_nsprefix_ = 'tc'
+        self.ValorServicos_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.ValorDeducoes = ValorDeducoes
         self.validate_tsValor(self.ValorDeducoes)
-        self.ValorDeducoes_nsprefix_ = 'tc'
+        self.ValorDeducoes_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.ValorPis = ValorPis
         self.validate_tsValor(self.ValorPis)
-        self.ValorPis_nsprefix_ = 'tc'
+        self.ValorPis_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.ValorCofins = ValorCofins
         self.validate_tsValor(self.ValorCofins)
-        self.ValorCofins_nsprefix_ = 'tc'
+        self.ValorCofins_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.ValorInss = ValorInss
         self.validate_tsValor(self.ValorInss)
-        self.ValorInss_nsprefix_ = 'tc'
+        self.ValorInss_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.ValorIr = ValorIr
         self.validate_tsValor(self.ValorIr)
-        self.ValorIr_nsprefix_ = 'tc'
+        self.ValorIr_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.ValorCsll = ValorCsll
         self.validate_tsValor(self.ValorCsll)
-        self.ValorCsll_nsprefix_ = 'tc'
+        self.ValorCsll_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.IssRetido = IssRetido
         self.validate_tsSimNao(self.IssRetido)
-        self.IssRetido_nsprefix_ = 'tc'
+        self.IssRetido_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.ValorIss = ValorIss
         self.validate_tsValor(self.ValorIss)
-        self.ValorIss_nsprefix_ = 'tc'
+        self.ValorIss_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.ValorIssRetido = ValorIssRetido
         self.validate_tsValor(self.ValorIssRetido)
-        self.ValorIssRetido_nsprefix_ = 'tc'
+        self.ValorIssRetido_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.OutrasRetencoes = OutrasRetencoes
         self.validate_tsValor(self.OutrasRetencoes)
-        self.OutrasRetencoes_nsprefix_ = 'tc'
+        self.OutrasRetencoes_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.BaseCalculo = BaseCalculo
         self.validate_tsValor(self.BaseCalculo)
-        self.BaseCalculo_nsprefix_ = 'tc'
+        self.BaseCalculo_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Aliquota = Aliquota
         self.validate_tsAliquota(self.Aliquota)
-        self.Aliquota_nsprefix_ = 'tc'
+        self.Aliquota_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.ValorLiquidoNfse = ValorLiquidoNfse
         self.validate_tsValor(self.ValorLiquidoNfse)
-        self.ValorLiquidoNfse_nsprefix_ = 'tc'
+        self.ValorLiquidoNfse_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.DescontoIncondicionado = DescontoIncondicionado
         self.validate_tsValor(self.DescontoIncondicionado)
-        self.DescontoIncondicionado_nsprefix_ = 'tc'
+        self.DescontoIncondicionado_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.DescontoCondicionado = DescontoCondicionado
         self.validate_tsValor(self.DescontoCondicionado)
-        self.DescontoCondicionado_nsprefix_ = 'tc'
+        self.DescontoCondicionado_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -2906,22 +2906,22 @@ class tcDadosServico(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.Valores = Valores
-        self.Valores_nsprefix_ = 'tc'
+        self.Valores_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.ItemListaServico = ItemListaServico
         self.validate_tsItemListaServico(self.ItemListaServico)
-        self.ItemListaServico_nsprefix_ = 'tc'
+        self.ItemListaServico_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.CodigoCnae = CodigoCnae
         self.validate_tsCodigoCnae(self.CodigoCnae)
-        self.CodigoCnae_nsprefix_ = 'tc'
+        self.CodigoCnae_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.CodigoTributacaoMunicipio = CodigoTributacaoMunicipio
         self.validate_tsCodigoTributacao(self.CodigoTributacaoMunicipio)
-        self.CodigoTributacaoMunicipio_nsprefix_ = 'tc'
+        self.CodigoTributacaoMunicipio_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Discriminacao = Discriminacao
         self.validate_tsDiscriminacao(self.Discriminacao)
-        self.Discriminacao_nsprefix_ = 'tc'
+        self.Discriminacao_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.MunicipioPrestacaoServico = MunicipioPrestacaoServico
         self.validate_tsCodigoMunicipioIbge(self.MunicipioPrestacaoServico)
-        self.MunicipioPrestacaoServico_nsprefix_ = 'tc'
+        self.MunicipioPrestacaoServico_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -3153,10 +3153,10 @@ class tcDadosConstrucaoCivil(GeneratedsSuper):
         self.ns_prefix_ = None
         self.CodigoObra = CodigoObra
         self.validate_tsCodigoObra(self.CodigoObra)
-        self.CodigoObra_nsprefix_ = 'tc'
+        self.CodigoObra_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Art = Art
         self.validate_tsArt(self.Art)
-        self.Art_nsprefix_ = 'tc'
+        self.Art_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -3299,17 +3299,17 @@ class tcDadosPrestador(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.IdentificacaoPrestador = IdentificacaoPrestador
-        self.IdentificacaoPrestador_nsprefix_ = 'tc'
+        self.IdentificacaoPrestador_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.RazaoSocial = RazaoSocial
         self.validate_tsRazaoSocial(self.RazaoSocial)
-        self.RazaoSocial_nsprefix_ = 'tc'
+        self.RazaoSocial_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.NomeFantasia = NomeFantasia
         self.validate_tsNomeFantasia(self.NomeFantasia)
-        self.NomeFantasia_nsprefix_ = 'tc'
+        self.NomeFantasia_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Endereco = Endereco
-        self.Endereco_nsprefix_ = 'tc'
+        self.Endereco_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Contato = Contato
-        self.Contato_nsprefix_ = 'tc'
+        self.Contato_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -3488,42 +3488,42 @@ class tcInfRps(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.id = _cast(None, id)
-        self.id_nsprefix_ = 'tc'
+        self.id_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.IdentificacaoRps = IdentificacaoRps
-        self.IdentificacaoRps_nsprefix_ = 'tc'
+        self.IdentificacaoRps_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         if isinstance(DataEmissao, BaseStrType_):
             initvalue_ = datetime_.datetime.strptime(DataEmissao, '%Y-%m-%dT%H:%M:%S')
         else:
             initvalue_ = DataEmissao
         self.DataEmissao = initvalue_
-        self.DataEmissao_nsprefix_ = 'tc'
+        self.DataEmissao_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.NaturezaOperacao = NaturezaOperacao
         self.validate_tsNaturezaOperacao(self.NaturezaOperacao)
-        self.NaturezaOperacao_nsprefix_ = 'tc'
+        self.NaturezaOperacao_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.RegimeEspecialTributacao = RegimeEspecialTributacao
         self.validate_tsRegimeEspecialTributacao(self.RegimeEspecialTributacao)
-        self.RegimeEspecialTributacao_nsprefix_ = 'tc'
+        self.RegimeEspecialTributacao_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.OptanteSimplesNacional = OptanteSimplesNacional
         self.validate_tsSimNao(self.OptanteSimplesNacional)
-        self.OptanteSimplesNacional_nsprefix_ = 'tc'
+        self.OptanteSimplesNacional_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.IncentivadorCultural = IncentivadorCultural
         self.validate_tsSimNao(self.IncentivadorCultural)
-        self.IncentivadorCultural_nsprefix_ = 'tc'
+        self.IncentivadorCultural_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Status = Status
         self.validate_tsStatusRps(self.Status)
-        self.Status_nsprefix_ = 'tc'
+        self.Status_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.RpsSubstituido = RpsSubstituido
-        self.RpsSubstituido_nsprefix_ = 'tc'
+        self.RpsSubstituido_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Servico = Servico
-        self.Servico_nsprefix_ = 'tc'
+        self.Servico_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Prestador = Prestador
-        self.Prestador_nsprefix_ = 'tc'
+        self.Prestador_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Tomador = Tomador
-        self.Tomador_nsprefix_ = 'tc'
+        self.Tomador_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.IntermediarioServico = IntermediarioServico
-        self.IntermediarioServico_nsprefix_ = 'tc'
+        self.IntermediarioServico_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.ContrucaoCivil = ContrucaoCivil
-        self.ContrucaoCivil_nsprefix_ = 'tc'
+        self.ContrucaoCivil_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -3814,9 +3814,9 @@ class tcRps(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.InfRps = InfRps
-        self.InfRps_nsprefix_ = 'tc'
+        self.InfRps_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Signature = Signature
-        self.Signature_nsprefix_ = 'tc'
+        self.Signature_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -3917,16 +3917,16 @@ class tcIdentificacaoNfse(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Numero = Numero
         self.validate_tsNumeroNfse(self.Numero)
-        self.Numero_nsprefix_ = 'tc'
+        self.Numero_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Cnpj = Cnpj
         self.validate_tsCnpj(self.Cnpj)
-        self.Cnpj_nsprefix_ = 'tc'
+        self.Cnpj_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = 'tc'
+        self.InscricaoMunicipal_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.CodigoMunicipio = CodigoMunicipio
         self.validate_tsCodigoMunicipioIbge(self.CodigoMunicipio)
-        self.CodigoMunicipio_nsprefix_ = 'tc'
+        self.CodigoMunicipio_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -4134,63 +4134,63 @@ class tcInfNfse(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.id = _cast(None, id)
-        self.id_nsprefix_ = 'tc'
+        self.id_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Numero = Numero
         self.validate_tsNumeroNfse(self.Numero)
-        self.Numero_nsprefix_ = 'tc'
+        self.Numero_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.CodigoVerificacao = CodigoVerificacao
         self.validate_tsCodigoVerificacao(self.CodigoVerificacao)
-        self.CodigoVerificacao_nsprefix_ = 'tc'
+        self.CodigoVerificacao_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         if isinstance(DataEmissao, BaseStrType_):
             initvalue_ = datetime_.datetime.strptime(DataEmissao, '%Y-%m-%dT%H:%M:%S')
         else:
             initvalue_ = DataEmissao
         self.DataEmissao = initvalue_
-        self.DataEmissao_nsprefix_ = 'tc'
+        self.DataEmissao_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.IdentificacaoRps = IdentificacaoRps
-        self.IdentificacaoRps_nsprefix_ = 'tc'
+        self.IdentificacaoRps_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         if isinstance(DataEmissaoRps, BaseStrType_):
             initvalue_ = datetime_.datetime.strptime(DataEmissaoRps, '%Y-%m-%dT%H:%M:%S')
         else:
             initvalue_ = DataEmissaoRps
         self.DataEmissaoRps = initvalue_
-        self.DataEmissaoRps_nsprefix_ = 'tc'
+        self.DataEmissaoRps_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.NaturezaOperacao = NaturezaOperacao
         self.validate_tsNaturezaOperacao(self.NaturezaOperacao)
-        self.NaturezaOperacao_nsprefix_ = 'tc'
+        self.NaturezaOperacao_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.RegimeEspecialTributacao = RegimeEspecialTributacao
         self.validate_tsRegimeEspecialTributacao(self.RegimeEspecialTributacao)
-        self.RegimeEspecialTributacao_nsprefix_ = 'tc'
+        self.RegimeEspecialTributacao_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.OptanteSimplesNacional = OptanteSimplesNacional
         self.validate_tsSimNao(self.OptanteSimplesNacional)
-        self.OptanteSimplesNacional_nsprefix_ = 'tc'
+        self.OptanteSimplesNacional_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.IncentivadorCultural = IncentivadorCultural
         self.validate_tsSimNao(self.IncentivadorCultural)
-        self.IncentivadorCultural_nsprefix_ = 'tc'
+        self.IncentivadorCultural_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Competencia = Competencia
         self.validate_tsCompetencia(self.Competencia)
-        self.Competencia_nsprefix_ = 'tc'
+        self.Competencia_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.NfseSubstituida = NfseSubstituida
         self.validate_tsNumeroNfse(self.NfseSubstituida)
-        self.NfseSubstituida_nsprefix_ = 'tc'
+        self.NfseSubstituida_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.OutrasInformacoes = OutrasInformacoes
         self.validate_tsOutrasInformacoes(self.OutrasInformacoes)
-        self.OutrasInformacoes_nsprefix_ = 'tc'
+        self.OutrasInformacoes_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Servico = Servico
-        self.Servico_nsprefix_ = 'tc'
+        self.Servico_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.ValorCredito = ValorCredito
         self.validate_tsValor(self.ValorCredito)
-        self.ValorCredito_nsprefix_ = 'tc'
+        self.ValorCredito_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.PrestadorServico = PrestadorServico
-        self.PrestadorServico_nsprefix_ = 'tc'
+        self.PrestadorServico_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.TomadorServico = TomadorServico
-        self.TomadorServico_nsprefix_ = 'tc'
+        self.TomadorServico_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.IntermediarioServico = IntermediarioServico
-        self.IntermediarioServico_nsprefix_ = 'tc'
+        self.IntermediarioServico_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.OrgaoGerador = OrgaoGerador
-        self.OrgaoGerador_nsprefix_ = 'tc'
+        self.OrgaoGerador_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.ContrucaoCivil = ContrucaoCivil
-        self.ContrucaoCivil_nsprefix_ = 'tc'
+        self.ContrucaoCivil_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -4626,7 +4626,7 @@ class tcNfse(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.InfNfse = InfNfse
-        self.InfNfse_nsprefix_ = 'tc'
+        self.InfNfse_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         if Signature is None:
             self.Signature = []
         else:
@@ -4730,12 +4730,12 @@ class tcInfPedidoCancelamento(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.id = _cast(None, id)
-        self.id_nsprefix_ = 'tc'
+        self.id_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.IdentificacaoNfse = IdentificacaoNfse
-        self.IdentificacaoNfse_nsprefix_ = 'tc'
+        self.IdentificacaoNfse_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.CodigoCancelamento = CodigoCancelamento
         self.validate_tsCodigoCancelamentoNfse(self.CodigoCancelamento)
-        self.CodigoCancelamento_nsprefix_ = 'tc'
+        self.CodigoCancelamento_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -4871,7 +4871,7 @@ class tcPedidoCancelamento(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.InfPedidoCancelamento = InfPedidoCancelamento
-        self.InfPedidoCancelamento_nsprefix_ = 'tc'
+        self.InfPedidoCancelamento_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Signature = Signature
         self.Signature_nsprefix_ = None
     def factory(*args_, **kwargs_):
@@ -4972,15 +4972,15 @@ class tcInfConfirmacaoCancelamento(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.Sucesso = Sucesso
-        self.Sucesso_nsprefix_ = 'tc'
+        self.Sucesso_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         if isinstance(DataHora, BaseStrType_):
             initvalue_ = datetime_.datetime.strptime(DataHora, '%Y-%m-%dT%H:%M:%S')
         else:
             initvalue_ = DataHora
         self.DataHora = initvalue_
-        self.DataHora_nsprefix_ = 'tc'
+        self.DataHora_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.ListaMensagemRetorno = ListaMensagemRetorno
-        self.ListaMensagemRetorno_nsprefix_ = 'tc'
+        self.ListaMensagemRetorno_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -5091,11 +5091,11 @@ class tcConfirmacaoCancelamento(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.id = _cast(None, id)
-        self.id_nsprefix_ = 'tc'
+        self.id_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Pedido = Pedido
-        self.Pedido_nsprefix_ = 'tc'
+        self.Pedido_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.InfConfirmacaoCancelamento = InfConfirmacaoCancelamento
-        self.InfConfirmacaoCancelamento_nsprefix_ = 'tc'
+        self.InfConfirmacaoCancelamento_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -5210,7 +5210,7 @@ class tcCancelamentoNfse(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.Confirmacao = Confirmacao
-        self.Confirmacao_nsprefix_ = 'tc'
+        self.Confirmacao_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Signature = Signature
         self.Signature_nsprefix_ = None
     def factory(*args_, **kwargs_):
@@ -5310,10 +5310,10 @@ class tcInfSubstituicaoNfse(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.id = _cast(None, id)
-        self.id_nsprefix_ = 'tc'
+        self.id_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.NfseSubstituidora = NfseSubstituidora
         self.validate_tsNumeroNfse(self.NfseSubstituidora)
-        self.NfseSubstituidora_nsprefix_ = 'tc'
+        self.NfseSubstituidora_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -5438,7 +5438,7 @@ class tcSubstituicaoNfse(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.SubstituicaoNfse = SubstituicaoNfse
-        self.SubstituicaoNfse_nsprefix_ = 'tc'
+        self.SubstituicaoNfse_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         if Signature is None:
             self.Signature = []
         else:
@@ -5542,11 +5542,11 @@ class tcCompNfse(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.Nfse = Nfse
-        self.Nfse_nsprefix_ = 'tc'
+        self.Nfse_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.NfseCancelamento = NfseCancelamento
-        self.NfseCancelamento_nsprefix_ = 'tc'
+        self.NfseCancelamento_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.NfseSubstituicao = NfseSubstituicao
-        self.NfseSubstituicao_nsprefix_ = 'tc'
+        self.NfseSubstituicao_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -5655,13 +5655,13 @@ class tcMensagemRetorno(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Codigo = Codigo
         self.validate_tsCodigoMensagemAlerta(self.Codigo)
-        self.Codigo_nsprefix_ = 'tc'
+        self.Codigo_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Mensagem = Mensagem
         self.validate_tsDescricaoMensagemAlerta(self.Mensagem)
-        self.Mensagem_nsprefix_ = 'tc'
+        self.Mensagem_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Correcao = Correcao
         self.validate_tsDescricaoMensagemAlerta(self.Correcao)
-        self.Correcao_nsprefix_ = 'tc'
+        self.Correcao_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -5815,13 +5815,13 @@ class tcMensagemRetornoLote(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.IdentificacaoRps = IdentificacaoRps
-        self.IdentificacaoRps_nsprefix_ = 'tc'
+        self.IdentificacaoRps_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Codigo = Codigo
         self.validate_tsCodigoMensagemAlerta(self.Codigo)
-        self.Codigo_nsprefix_ = 'tc'
+        self.Codigo_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Mensagem = Mensagem
         self.validate_tsDescricaoMensagemAlerta(self.Mensagem)
-        self.Mensagem_nsprefix_ = 'tc'
+        self.Mensagem_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -5974,20 +5974,20 @@ class tcLoteRps(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.id = _cast(None, id)
-        self.id_nsprefix_ = 'tc'
+        self.id_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.NumeroLote = NumeroLote
         self.validate_tsNumeroLote(self.NumeroLote)
-        self.NumeroLote_nsprefix_ = 'tc'
+        self.NumeroLote_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.CpfCnpj = CpfCnpj
-        self.CpfCnpj_nsprefix_ = 'tc'
+        self.CpfCnpj_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = 'tc'
+        self.InscricaoMunicipal_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.QuantidadeRps = QuantidadeRps
         self.validate_tsQuantidadeRps(self.QuantidadeRps)
-        self.QuantidadeRps_nsprefix_ = 'tc'
+        self.QuantidadeRps_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.ListaRps = ListaRps
-        self.ListaRps_nsprefix_ = 'tc'
+        self.ListaRps_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -9280,7 +9280,7 @@ class ListaRpsType(GeneratedsSuper):
             self.Rps = []
         else:
             self.Rps = Rps
-        self.Rps_nsprefix_ = 'tc'
+        self.Rps_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(

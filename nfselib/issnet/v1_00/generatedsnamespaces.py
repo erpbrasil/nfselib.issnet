@@ -14,11 +14,5 @@ GenerateDSNamespaceDefs = {
 }
 
 GenerateDSNamespaceTypePrefixes = {
-    "tcLoteRps": 'tc',
-    "tcIdentificacaoPrestador": 'tc',
-    "tcIdentificacaoRps": 'tc',
-    "tcIdentificacaoNfse": 'p1',
-    "tcInfPedidoCancelamento": 'p1',
-    "tcPedidoCancelamento": 'p1',
-    "CancelarNfseEnvio": 'p',
+    "General": 'tc',
 }
