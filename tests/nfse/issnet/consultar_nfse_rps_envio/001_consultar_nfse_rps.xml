@@ -1,28 +1,13 @@
-<ConsultarNfseEnvio
-	xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/servico_consultar_nfse_envio.xsd"
-	xmlns:tc="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd">
-	<Prestador>
-		<tc:CpfCnpj>
-			<tc:Cnpj>09255435000151</tc:Cnpj>
-		</tc:CpfCnpj>
-		<tc:InscricaoMunicipal>1000017840</tc:InscricaoMunicipal>
-	</Prestador>
-	<NumeroNfse>93</NumeroNfse>
-	<PeriodoEmissao>
-		<DataInicial>2009-08-01</DataInicial>
-		<DataFinal>2009-08-30</DataFinal>
-	</PeriodoEmissao>
-	<Tomador>
-		<tc:CpfCnpj>
-			<tc:Cnpj>38693524000188</tc:Cnpj>
-		</tc:CpfCnpj>
-		<tc:InscricaoMunicipal>812005</tc:InscricaoMunicipal>
-	</Tomador>
-	<IntermediarioServico>
-		<tc:CpfCnpj>
-			<tc:Cnpj>38693524000188</tc:Cnpj>
-		</tc:CpfCnpj>
-		<tc:RazaoSocial>sdfsfsdfsf</tc:RazaoSocial>
-		<tc:InscricaoMunicipal>812005</tc:InscricaoMunicipal>
-	</IntermediarioServico>
-</ConsultarNfseEnvio>
+<ConsultarNfseRpsEnvio xmlns="http://www.issnetonline.com.br/webserviceabrasf/vsd/servico_consultar_nfse_rps_envio.xsd" xmlns:tc="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_complexos.xsd" xmlns:ts="http://www.issnetonline.com.br/webserviceabrasf/vsd/tipos_simples.xsd">
+  <IdentificacaoRps>
+    <tc:Numero>210</tc:Numero>
+    <tc:Serie>10</tc:Serie>
+    <tc:Tipo>1</tc:Tipo>
+  </IdentificacaoRps>
+  <Prestador>
+    <tc:CpfCnpj>
+      <tc:Cpf>97004731120</tc:Cpf>
+    </tc:CpfCnpj>
+    <tc:InscricaoMunicipal>812005</tc:InscricaoMunicipal>
+  </Prestador>
+</ConsultarNfseRpsEnvio>

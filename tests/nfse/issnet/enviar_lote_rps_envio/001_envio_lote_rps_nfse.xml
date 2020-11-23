@@ -12,16 +12,16 @@
 			<tc:Rps>
 				<tc:InfRps>
 					<tc:IdentificacaoRps>
-						<tc:Numero>215</tc:Numero>
+						<tc:Numero>1</tc:Numero>
 						<tc:Serie>10</tc:Serie>
 						<tc:Tipo>1</tc:Tipo>
 					</tc:IdentificacaoRps>
-					<tc:DataEmissao>2009-07-24T10:00:00</tc:DataEmissao>
+                    <tc:DataEmissao>2009-07-24T10:00:00</tc:DataEmissao>
 					<tc:NaturezaOperacao>1</tc:NaturezaOperacao>
-					<tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
-					<tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+                    <tc:RegimeEspecialTributacao>2</tc:RegimeEspecialTributacao>
+					<tc:OptanteSimplesNacional>1</tc:OptanteSimplesNacional>
+					<tc:IncentivadorCultural>1</tc:IncentivadorCultural>
 					<tc:Status>1</tc:Status>
-					<tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
 					<tc:Servico>
 						<tc:Valores>
 							<tc:ValorServicos>1100</tc:ValorServicos>
@@ -33,7 +33,7 @@
 							<tc:IssRetido>2</tc:IssRetido>
 							<tc:ValorIss>50</tc:ValorIss>
 							<tc:BaseCalculo>1000</tc:BaseCalculo>
-							<tc:Aliquota>5.00</tc:Aliquota>
+							<tc:Aliquota>0.05</tc:Aliquota>
 							<tc:ValorLiquidoNfse>850</tc:ValorLiquidoNfse>
 							<tc:DescontoIncondicionado>0</tc:DescontoIncondicionado>
 							<tc:DescontoCondicionado>0</tc:DescontoCondicionado>
@@ -72,16 +72,16 @@
 			<tc:Rps>
 				<tc:InfRps>
 					<tc:IdentificacaoRps>
-						<tc:Numero>216</tc:Numero>
+						<tc:Numero>2</tc:Numero>
 						<tc:Serie>10</tc:Serie>
 						<tc:Tipo>1</tc:Tipo>
 					</tc:IdentificacaoRps>
 					<tc:DataEmissao>2009-07-24T10:00:00</tc:DataEmissao>
 					<tc:NaturezaOperacao>1</tc:NaturezaOperacao>
-					<tc:OptanteSimplesNacional>2</tc:OptanteSimplesNacional>
-					<tc:IncentivadorCultural>2</tc:IncentivadorCultural>
+                    <tc:RegimeEspecialTributacao>2</tc:RegimeEspecialTributacao>
+					<tc:OptanteSimplesNacional>1</tc:OptanteSimplesNacional>
+					<tc:IncentivadorCultural>1</tc:IncentivadorCultural>
 					<tc:Status>1</tc:Status>
-					<tc:RegimeEspecialTributacao>1</tc:RegimeEspecialTributacao>
 					<tc:Servico>
 						<tc:Valores>
 							<tc:ValorServicos>1100</tc:ValorServicos>
