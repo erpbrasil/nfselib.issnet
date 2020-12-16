@@ -25,7 +25,7 @@ def read(*names, **kwargs):
 
 setup(
     name='nfselib.issnet',
-    version='0.1.0',
+    version='0.2.0',
     license='MIT',
     description='Python Library to genereate issnet NFS-E',
     long_description='%s\n%s\n%s' % (
