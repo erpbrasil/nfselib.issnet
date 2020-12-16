@@ -109,6 +109,7 @@ Esta é uma biblioteca criada atravês do esforço de das empresas:
 
 * Akretion https://akretion.com/pt-BR/
 * KMEE https://www.kmee.com.br
+* Escodoo https://www.escodoo.com.br
 
 Licença
 ~~~~~~~
