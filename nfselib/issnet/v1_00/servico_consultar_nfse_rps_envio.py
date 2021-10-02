@@ -1070,10 +1070,10 @@ class tcCpfCnpj(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Cpf = Cpf
         self.validate_tsCpf(self.Cpf)
-        self.Cpf_nsprefix_ = None
+        self.Cpf_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Cnpj = Cnpj
         self.validate_tsCnpj(self.Cnpj)
-        self.Cnpj_nsprefix_ = None
+        self.Cnpj_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -1789,13 +1789,13 @@ class tcIdentificacaoRps(GeneratedsSuper):
         self.ns_prefix_ = None
         self.Numero = Numero
         self.validate_tsNumeroRps(self.Numero)
-        self.Numero_nsprefix_ = None
+        self.Numero_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Serie = Serie
         self.validate_tsSerieRps(self.Serie)
-        self.Serie_nsprefix_ = None
+        self.Serie_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.Tipo = Tipo
         self.validate_tsTipoRps(self.Tipo)
-        self.Tipo_nsprefix_ = None
+        self.Tipo_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
@@ -1960,10 +1960,10 @@ class tcIdentificacaoPrestador(GeneratedsSuper):
         self.parent_object_ = kwargs_.get('parent_object_')
         self.ns_prefix_ = None
         self.CpfCnpj = CpfCnpj
-        self.CpfCnpj_nsprefix_ = None
+        self.CpfCnpj_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
         self.InscricaoMunicipal = InscricaoMunicipal
         self.validate_tsInscricaoMunicipal(self.InscricaoMunicipal)
-        self.InscricaoMunicipal_nsprefix_ = None
+        self.InscricaoMunicipal_nsprefix_ = GenerateDSNamespaceTypePrefixes_.get('General')
     def factory(*args_, **kwargs_):
         if CurrentSubclassModule_ is not None:
             subclass = getSubclassFromModule_(
